@@ -1,0 +1,134 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  
+  
+  
+  .name-headline {
+    font-size: 20px;
+    color: white; 
+  }
+  
+  .about {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: .2px;
+  }
+  
+  .links {
+    background-color:silver;
+    padding: .2px;
+    }
+  
+  .profile-card {
+    width: 480px; 
+    max-width: calc(100vw - 15px);
+  }
+  
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    letter-spacing: .6px;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: .3ex;
+  }
+  
+  
+  .head, .links {
+    text-align: center;
+  }
+  
+  
+  .head, .content {
+    width: 100%;
+    margin: auto;
+  }
+  
+  img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .profile-image {
+    margin-top: 300px;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  .head, .about {
+    margin-bottom: 5%;
+  }
+  
+  .content {
+    padding: 1%;
+  }
+  
+  .name-headline {
+    margin: 2%;
+    text-align: center;
+  }
+  
+  .links {
+    margin: 30%;
+    background-color: silver;
+  }
+  
+  body {
+    background: url('assets/Lokis.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  
+  img {
+    background-color: silver;
+  }
+  
+  
+  .content {
+    border-top: 3px solid white;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out; /*lassít a kép nagyításan ha fölé megy a kurzor*/
+    filter: grayscale(50%);
+  }
+  a:hover {
+    color: red;
+  }
+  
+  h4, h5, h6, h7 {
+    color: gray;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  h4:hover {
+    color: red;
+  }
+  h5:hover {
+    color: snow;
+  }
+  h6:hover {
+    color: lightgreen;
+  }
+  
+  
